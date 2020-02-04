@@ -6,8 +6,109 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Survey Form</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
+
 </head>
 <body>
+    <a id="SHD-logo"href="#" target="_blank">
+        <img src="https://www.brookvalepta.com/wp-content/uploads/2018/01/Super_Hero_Logo-01.jpg" alt="super hero day logo"></a>
+
+  <h1 id="title">Survey Form</h1>
+
+    <div id="form-card">
+
+      <p id="description">
+        We want to know more about your Alter-Ego!!!
+      </p>
+
+      <form id="survey-form">
+
+
+          <div class="form-left">
+            <label id="name-label" for="name">* Alias: </label>
+          </div>
+        
+          <div class="form-right">
+            <input id="name" type="text"  class="user-info" placeholder="Enter your Alias" required>
+          </div>
+        
+          <div class="form-left">
+            <label id="email-label" for="email">* Signal: </label>
+          </div>
+        
+          <div class="form-right">
+            <input id="email" type="email"  class="user-info" required placeholder="Enter your Email" required>
+          </div>
+         
+          <div class="form-left">
+            <label id="number-label" for="number">* Age: </label>
+          </div>
+        
+          <div class="form-right">
+            <input id="number" type="number" class="user-info"  placeholder="Enter your Age" min="0" max="999999999999999"> 
+          </div>
+        
+      
+          <div class="form-left">
+            <label for="descibe">How would you describe your Alter-Ego?</label>
+          </div>
+        
+          <div class="form-right">
+            <select id="dropdown" name="describe" class="dropdown">
+             
+            </select>
+          </div>
+          
+          
+          <div class="form-left">
+            <label for="userclass">* Do you serve humanity or wish to rule/end it?</label>
+          </div>
+        
+          <div class="form-right">
+            <ul style="list-style: none;">
+              <li class="radio"><label>Superhero<input name="radio-buttons" value="1"  type="radio" class="userclass" ></label></li>
+              <li class="radio"><label>Supervilain<input name="radio-buttons" value="2"  type="radio" class="userclass" ></label></li>
+              <li class="radio"><label>I do what I want<input name="radio-buttons" value="3"  type="radio" class="userclass" ></label></li>
+            </ul>
+          </div>
+        
+          
+          <div class="form-left">
+            <label for="origin">How did you gain your powers?</label>
+          </div>
+        
+          <div class="form-right">
+            <select id="origin" name="origin" class="dropdown">
+              
+            </select>
+          </div>
+        
+
+          <div class="form-left">
+            <label for="features">Distinguishing features?<br>(Check all that apply): </label>
+          </div>
+
+          <div class="form-right">
+            <ul id="features" style="list-style: none;">
+            
+              
+            </ul>
+           </div>
+          
+      
+          <div class="form-left">
+            <label for="info">Any Other Information</label>
+          </div>
+        
+          <div class="form-right">
+            <textarea id="info" class="user-info" name="info" style="height:100px;resize:vertical;"  placeholder="Add any additional information here..."></textarea>
+          </div>
+        
+        <button id="submit" type="submit">Submit</button>
+      
+      </form>
+
+    </div>
     
 </body>
 </html>
