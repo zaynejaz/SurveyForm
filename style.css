@@ -4,3 +4,159 @@ html, body {
     background-color: #ffffff;
     min-width: 320px;
   }
+
+#SHD-logo {
+    align-content: center;
+    padding: none;
+    margin: none;
+  }
+  
+  
+  #title {
+    font-size: 2.5em;
+    color: #FCB813;
+    font-weight: lighter;
+    margin: -5px 0 20px 0;
+    font-family: 'Lobster', cursive;
+    text-shadow: 
+      3px 3px 0 #000,
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+   }
+  
+  
+  #form-card {
+    background-color: #dbdbdb;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 20px;
+    border-radius: 500px;
+    box-shadow: 
+      2px 2px #e51836,
+      -1px -1px 0 #fcb813,  
+      1px -1px 0 #fcb813,
+      -1px 1px 0 #e51836,
+      2px 2px 0 #961823;
+  }
+  .form-left {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+  .form-right {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+  }
+  .user-info {
+    height: 25px;
+    width: 275px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #df9c00;
+    border-radius: 25px;
+  }
+  
+  
+  #features
+  .column{
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .userclass,
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+  }
+  
+  
+  .dropdown {
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 2px solid #df9c00;
+    border-radius: 25px;
+  }
+  
+  
+  .radio, .checkbox {
+    position: relative;
+    left: -40px;
+    margin-left: 15px;
+    display: block;
+    padding-bottom: 10px;
+  }
+  
+  
+  #submit {
+    background-color: #FCB813;
+    border-radius: 0%;
+    height: 50px;
+    width: 110px;
+    margin: 5px;
+    border: 0px solid;
+  
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 1em;
+    color: #961823;
+    transition: all .3s ease-in-out;
+  }
+  #submit:hover {
+    background-color: #961823;
+    border-radius: 50%;
+    box-shadow: 
+      3px 3px 0 #000,
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+    font-size: 2em;
+    color: #FCB813;
+    text-shadow: 
+      3px 3px 0 #000,
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+      transform: scale(1.4)
+  }
+  
+  
+  @media screen and (max-width: 833px) {
+    .user-info {
+      width: 80%;
+    }
+    select {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .form-left {
+      width: 100%;
+      text-align: left;
+    }
+    .form-right {
+      width: 80%;
+      float: left;
+    }
+    .user-info {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+  }
+  
